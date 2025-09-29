@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.smartFins-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.bg-dark1 {
+    background-color: black !important;
+}
+
+.navbar-light1 {
+    background-color: #d5bd63 !important;
+}
+
+#navItem1 {
+    color: #d5bd63;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #d5bd63;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #d5bd63;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #d5bd63;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://res.cloudinary.com/ddutqytdx/image/upload/v1757854231/smartFIns_yjlokg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.banner-heading {
+    font-family: 'Poppins', sans-serif;
+    /* or Montserrat */
+
+
+    font-weight: 700;
+    /* Bold */
+    color: #d5bd63;
+    /* Gold */
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 550px !important;
+}
+
+
+.banner-heading2 {
+    font-family: 'Poppins', sans-serif;
+    /* or Montserrat */
+    font-weight: 700;
+    /* Bold */
+    color: #d5bd63;
+    /* Gold */
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 530px !important;
+}
+
+.banner-heading3 {
+    font-family: 'Poppins', sans-serif;
+    /* or Montserrat */
+    font-weight: 700;
+    /* Bold */
+    color: #d5bd63;
+    /* Gold */
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 200px !important;
+}
+
+
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.about-tagline {
+    color: #d5bd63;
+    font-family: "Roboto";
+    text-decoration: underline;
+    text-decoration-color: ;
+}
+
+.custom-outline-button1 {
+    color: #CCCCCC;
+    background-color: transparent;
+    width: 130px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.about-smartfins {
+
+    color: #d5bd63;
+    font-family: "Roboto";
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.about-smartfins-description {
+    color: #CCCCCC;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.wcu-section {
+    background-color: black;
+}
+
+.wcu-section-heading {
+    color: #d5bd63;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #CCCCCC;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color: #d5bd63;
+    text-decoration: underline;
+}
+
+.background-color1 {
+    background-color: black;
+}
+
+/* Benefits Section Styles */
+.benefits-section {
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    /* White text */
+}
+
+.section-title {
+    color: #d5bd63;
+    /* Gold color */
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.benefit-item {
+    display: flex;
+    /* Makes icon + text a row */
+    align-items: center;
+    /* Vertically centers them */
+    gap: 15px;
+    /* Space between icon and text */
+    padding: 15px 20px;
+    background-color: #111;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.benefit-item h5 {
+    margin: 0;
+    /* Remove default margin to align with icon */
+}
+
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    color: #FFD700;
+    /* Gold accent */
+}
+
+.benefit-item h5 {
+
+    margin: 0;
+}
+
+.benefits-icon {
+    height: 25px !important;
+    width: 25px !important;
+    margin-right: 10px;
+    margin-right: 5px;
+}
